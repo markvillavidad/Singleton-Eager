@@ -1,3 +1,3 @@
 # Singleton-Eager
 
-Eager-instatiation of  Singleton design pattern
+Singleton pattern is a type of creational design pattern. One way to implement it is by Eager initialization.
