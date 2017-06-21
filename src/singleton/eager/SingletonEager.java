@@ -5,17 +5,21 @@
  */
 package singleton.eager;
 
-/**
- *
- * @author Marvin
- */
+
 public class SingletonEager {
 
-    /**
-     * @param args the command line arguments
-     */
+    private static SingletonEager newSingletonInstance = new SingletonEager();
+    
+    private SingletonEager(){}
+    
+    public static SingletonEager newSingletonInstance(){
+             return newSingletonInstance();
+        }     
+    
+ 
     public static void main(String[] args) {
         // TODO code application logic here
     }
     
 }
+
